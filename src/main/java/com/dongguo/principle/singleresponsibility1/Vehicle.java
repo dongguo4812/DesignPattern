@@ -8,7 +8,7 @@ package com.dongguo.principle.singleresponsibility1;
 class Vehicle {
     /**
      * @author Dongguo 
-     * @description: 方式1
+     * @description:
      */
     public void run(String vehicle) {
         System.out.println(vehicle + " 在公路上运行....");
