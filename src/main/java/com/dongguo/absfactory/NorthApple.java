@@ -1,4 +1,4 @@
-package com.dongguo.absfactory.fruit1;
+package com.dongguo.absfactory;
 
 /**
  * @author Dongguo
