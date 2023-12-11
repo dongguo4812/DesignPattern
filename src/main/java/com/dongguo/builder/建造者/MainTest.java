@@ -7,11 +7,17 @@ package com.dongguo.builder.建造者;
 public class MainTest {
     public static void main(String[] args) {
         MiBuilder miBuilder = new MiBuilder();
-        miBuilder.customCpu("高通骁龙680");
-        miBuilder.customMem("8GB");
-        miBuilder.customDisk("256/512GB");
-        miBuilder.customCam("3200万高清自拍");
-        Phone product = miBuilder.getProduct();
+//        miBuilder.customCpu("高通骁龙680");
+//        miBuilder.customMem("8GB");
+//        miBuilder.customDisk("256/512GB");
+//        miBuilder.customCam("3200万高清自拍");
+//        Phone product = miBuilder.getProduct();
+        Phone product = miBuilder
+                .customCpu("高通骁龙680")
+                .customMem("8GB").customDisk("256/512GB")
+                .customCam("3200万高清自拍")
+                .getProduct();
         System.out.println(product);
+
     }
 }

@@ -7,10 +7,10 @@ package com.dongguo.builder.建造者;
 public abstract class AbstractBuilder {
     Phone phone;
 
-    abstract void customCpu(String cpu);
-    abstract void customMem(String mem);
-    abstract void customDisk(String disk);
-    abstract void customCam(String cam);
+    abstract AbstractBuilder customCpu(String cpu);
+    abstract AbstractBuilder customMem(String mem);
+    abstract AbstractBuilder customDisk(String disk);
+    abstract AbstractBuilder customCam(String cam);
 
     public Phone getProduct(){
         return phone;
