@@ -13,6 +13,7 @@ public class MainTest {
 //        miBuilder.customCam("3200万高清自拍");
 //        Phone product = miBuilder.getProduct();
         Phone product = miBuilder
+
                 .customCpu("高通骁龙680")
                 .customMem("8GB").customDisk("256/512GB")
                 .customCam("3200万高清自拍")
